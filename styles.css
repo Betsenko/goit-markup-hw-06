@@ -244,6 +244,7 @@ body {
 .modal {
     width: 528px;
     height: 581px;
+    padding: 40px;
     background-color:var(--primary-white-color);
     border-radius: 5px;
     position: absolute;
@@ -282,8 +283,6 @@ body {
 .form-field {
     display: flex;
     flex-direction: column;
-    padding: 40px;
-
 }
 .form-field-title {
     margin-bottom: 12px;
@@ -302,7 +301,7 @@ body {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
-    outline: none;
+    outline: transparent;
 }
 .form-input:focus {
     border-color: var(--accent-color);
@@ -337,7 +336,7 @@ body {
     border-radius: 4px;
     padding: 12px 16px;
     resize: none;
-    outline: none;
+    outline: transparent;
 }
 .form-textarea:focus {
     border-color: var(--accent-color);
@@ -392,7 +391,7 @@ body {
 
 .modal-check:checked + .checktext::before {
     background-color: #2196F3;;
-    background-image: url(../images/check.svg);
+    background-image: url(./images/check.svg);
     border-color: var(--accent-color);
     background-repeat: no-repeat;
     background-position:center ;
